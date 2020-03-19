@@ -349,8 +349,9 @@
 
       if (fw)
         fw.postMessage({
-          message: "resized"
-        }, fw.origin)
+          message: "resized",
+          height: document.body.scrollHeight
+        }, "*")
     }
 
     window.onresize = resizeBoard
@@ -366,8 +367,9 @@
 
       if (fw) {
         fw.postMessage({
-          message: "resized"
-        }, fw.origin)
+          message: "resized",
+          height: document.body.scrollHeight
+        }, "*")
       }
     }
 
@@ -491,7 +493,7 @@
           event.source.postMessage({
             message: "init_successfully",
             number_of_frames: rounds.length // 返回总帧数
-          }, fw.origin)
+          }, "*")
         }
         reader.readAsText(message.replay_data)
       } else if (message.message == "init_spectator_player") {

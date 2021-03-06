@@ -1,15 +1,8 @@
 /*!
-  * vue-router v3.4.7
-  * (c) 2020 Evan You
+  * vue-router v3.5.1
+  * (c) 2021 Evan You
   * @license MIT
   */
-
-/*!
- * Chart.js v2.9.3
- * https://www.chartjs.org
- * (c) 2019 Chart.js Contributors
- * Released under the MIT License
- */
 
 /*!
  * Vue.js v2.6.12
@@ -18,17 +11,31 @@
  */
 
 /*!
- * clipboard.js v2.0.6
- * https://clipboardjs.com/
- * 
- * Licensed MIT © Zeno Rocha
- */
-
-/*!
  * cookie
  * Copyright(c) 2012-2014 Roman Shtylman
  * Copyright(c) 2015 Douglas Christopher Wilson
  * MIT Licensed
+ */
+
+/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
+
+/*!
+ * Chart.js v2.9.4
+ * https://www.chartjs.org
+ * (c) 2020 Chart.js Contributors
+ * Released under the MIT License
+ */
+
+/*!
+ * clipboard.js v2.0.7
+ * https://clipboardjs.com/
+ *
+ * Licensed MIT © Zeno Rocha
  */
 
 /*!
@@ -43,12 +50,6 @@
  * Released under the MIT License.
  */
 
-/*!
- * vuex v3.5.1
- * (c) 2020 Evan You
- * @license MIT
- */
-
 /*! 
   * portal-vue © Thorsten Lünborg, 2019 
   * 
@@ -59,3 +60,7 @@
   * https://github.com/linusborg/portal-vue
   * 
  */
+
+//! moment.js
+
+//! moment.js locale configuration

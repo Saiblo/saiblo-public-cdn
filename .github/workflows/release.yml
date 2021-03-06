@@ -12,16 +12,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Set env
-        run: echo ::set-env name=RELEASE_VERSION::${GITHUB_REF:10}
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.RELEASE_VERSION }}
-          release_name: Release ${{ env.RELEASE_VERSION }}
-          body:
+          tag_name: ${GITHUB_REF:10}
+          release_name: Release ${GITHUB_REF:10}
           draft: false
           prerelease: false
